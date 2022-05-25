@@ -15,6 +15,20 @@
     height: 100px;
     width: 100px;
 }
+.icon{
+    background-color: #302F3D;
+    height: 15px;
+    width: 20px;
+}
+ul{
+    background-color: #302F3D;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    border-radius: 25px;
+}
 .txt{
     background-color: #302F3D;
 }
@@ -33,20 +47,6 @@
     align-items: center;
     border-radius: 25px;
     margin: 20px;
-}
-.icon{
-    padding-left: 20px;
-    background-color: #302F3D;
-    height: 20px;
-    width: 20px;
-}
-.column{
-    padding: 15px;
-    justify-content: space-around;
-    background-color: #302F3D;
-    display: flex;
-    flex-direction: column;
-    border-radius: 25px;
 }
 .media{
     display: flex;
