@@ -1,0 +1,59 @@
+:root {
+    font-family: 'Merriweather Sans', sans-serif;
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+}
+*{
+    background-color: #22212C;
+    margin: 0px;
+}
+.profilepic{
+    border: greenyellow solid 2px;
+    border-radius: 4em;
+    height: 100px;
+    width: 100px;
+}
+.txt{
+    background-color: #302F3D;
+}
+.sub{
+    background-color: #302F3D;
+    font-size: 13px;
+}
+.profile{
+    color: #837E9F;
+    display: flex;
+    height: 200px;
+    width: 300px;
+    background-color: #302F3D;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    margin: 20px;
+}
+.icon{
+    padding-left: 20px;
+    background-color: #302F3D;
+    height: 20px;
+    width: 20px;
+}
+.column{
+    padding: 15px;
+    justify-content: space-around;
+    background-color: #302F3D;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+}
+.media{
+    display: flex;
+    background-color: #302F3D;
+    color: #837E9F;
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    border-radius: 25px;
+}
